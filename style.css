@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+}
+h2{
+    margin: 0;
+}
+.container{
+    width:820px;
+    height: 455px;
+    background: hsl(257, 40%, 49%) url('images/bg-desktop.png') ;
+    background-position: center;
+    background-size: cover;
+    margin:120px auto;
+    padding: 30px 40px;
+   
+}
+header{
+    
+    font-size: 16px;;
+}
+header img{
+    width: 115px;
+    height: 30px;   
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sec1 img{
+    width: 400px;
+    height: 280px;
+    margin-top: 60px;
+}
+#sec2{
+    margin-left: 40px;
+    color:#fff;
+}
+#sec2 h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing:0.1em;
+    word-spacing: 3;
+}
+#sec2 p{
+    font-weight: normal;
+    font-size: 11px;
+    font-family: 'Open Sans', sans-serif;
+    color:rgb(230, 224, 243);
+    margin-top: 20px;
+}
+#register{
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 40px;
+    border-radius:20px;
+    margin-top: 20px;
+    width: 115px;
+    font-size: 11px;
+}
+.fab{
+    color:#fff;
+    padding: 6px;
+    margin: 3px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    font-size: 9px;
+}
+
+.social{
+    float: right;
+    padding-bottom: 20px;
+}
+#register a{
+    text-decoration: none;    
+    color:rgb(68, 65, 65);
+}
+
+.attribution { 
+    font-size: 11px; text-align: center;
+}
+.attribution a { 
+        color: hsl(228, 45%, 44%);
+}
+@media screen and (max-width: 720px) and (min-width: 300px) {
+    .container {
+      background: hsl(257, 40%, 49%) url('images/bg-mobile.png') ;
+      width: 100%;
+      max-width: 720px;
+      height: auto;
+      padding: 20px 20px 60px;
+      font-size: 12px;
+    }
+    header{
+        width: 100%;;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    #sec1{
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    #sec1 img{
+        width: 100%;
+    }
+    #sec2{
+        width: 100%;        
+        padding: 0 20px;
+        margin-left: 0px;
+    }
+    #sec2 h2{
+        font-size:23px ;
+    }
+    #sec2 p{
+        font-size: 16px;
+        margin: 20px auto;
+        text-align: center;
+    }
+    #register{
+        width:60%;
+        display: block;
+        margin: 20px auto 40px;
+        text-align: center;
+    }
+    .social{
+        width: 100%;
+        text-align: center;
+    }
+  
+}
+    
